@@ -9,7 +9,7 @@ scaler = joblib.load('scaler.pkl')
 encoder = joblib.load('encoder.pkl')
 
 # Define the Streamlit app
-st.title('# Banking Subscription Prediction App')
+st.title('Banking Subscription Prediction')
 
 st.write("""
 Enter the customer details below to predict subscription:
